@@ -1,0 +1,33 @@
+{
+  "name": "easy-deep-link",
+  "version": "1.0.2",
+  "description": "A simple library for creating deep links to mobile apps with Node.js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "deeplink",
+    "deep-link",
+    "mobile",
+    "node",
+    "easy-deep-link"
+  ],
+  "author": "Fatih Akdoğan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "tsup": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x178F/easy-deep-link.git"
+  }
+}
